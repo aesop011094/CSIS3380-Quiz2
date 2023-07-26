@@ -29,7 +29,7 @@ app.get('/', async (req, res) => {
 
     await newQuiz.save();
 
-    res.send('Quiz document created successfully!');
+    console.log('Quiz document created successfully!');
   } catch (error) {
     console.error(error);
     res.status(500).send('Error creating the Quiz document.');
