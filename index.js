@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 
 const app = express();
 const port = 7000;
-const mongoURI = 'mongodb+srv://testUser:Abcd1234@exam.sprxoho.mongodb.net/?retryWrites=true&w=majority';
+const mongoURI = 'mongodb+srv://tempuser:123@cluster0.f9d6o.gcp.mongodb.net/Exam';
 
 mongoose.connect(mongoURI, {
   useNewUrlParser: true,
